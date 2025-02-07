@@ -29,13 +29,13 @@ function Contact() {
     setIsSubmitting(true);
     
     try {
-      const response = await fetch('https://api.web3forms.com/submit', {
+      const response = await fetch('https://api.staticforms.xyz/submit', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          access_key: '729c0873-090a-4178-a3f8-5ee5fb232fc9',
+          access_key: '2dbc3606-0394-4deb-9d4f-ceda4192eabd',
           name: formData.fullName,
           email: formData.email,
           designation: formData.designation,
