@@ -66,7 +66,7 @@ function Contact() {
       }
     } catch (error) {
       console.error('Error:', error);
-      toast.error('Due to Huge Traffic. Our Servers are facing an issue. Please try again after sometime or Message Us on any of ours Social Accounts.');
+      toast.error('Something Went Wrong.Please try again after sometime');
     } finally {
       setIsSubmitting(false);
     }
