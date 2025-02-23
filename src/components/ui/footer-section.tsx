@@ -104,7 +104,7 @@ function Footerdemo() {
                 <Tooltip>
                   <TooltipTrigger asChild>
                     <a 
-                      href="https://www.linkedin.com/in/albotica-connect-6247a1348/" 
+                      href="https://www.linkedin.com/company/albotica/" 
                       target="_blank" 
                       rel="noopener noreferrer"
                     >
